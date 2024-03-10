@@ -1,7 +1,5 @@
 FROM openjdk:17-jdk
 
-RUN apk update
-
 RUN mkdir /app
 
 WORKDIR /app
