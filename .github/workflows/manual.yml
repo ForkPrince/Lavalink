@@ -24,7 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download Agent
+      - name: Download Server
         run: wget https://github.com/lavalink-devs/Lavalink/releases/download/${{ inputs.version_tag }}/Lavalink.jar
 
       - name: Install cosign
