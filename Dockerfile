@@ -8,4 +8,4 @@ COPY . .
 
 EXPOSE 2333
 
-CMD ["java", "-jar", "Lavalink.jar"]
+CMD ["sh", "-c", "java $JAVA_OPTIONS -jar Lavalink.jar"]
