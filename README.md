@@ -11,7 +11,7 @@ services:
         container_name: lavalink
         restart: unless-stopped
         environment:
-            - JAVA_OPTIONS="-Xmx2G"
+            - JAVA_OPTIONS=-Xmx2G
         volumes:
             - /lavalink/application.yml:/app/application.yml
         ports:
