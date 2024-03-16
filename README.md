@@ -13,7 +13,7 @@ services:
         environment:
             - JAVA_OPTIONS="-Xmx2G"
         volumes:
-            - /lavalink/:/app
+            - /lavalink/application.yml:/app/application.yml
         ports:
             - 2333:2333
 ```
